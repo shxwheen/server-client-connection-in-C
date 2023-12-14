@@ -67,7 +67,7 @@ void handle_request(int nfd)
          sendResponse(nfd,path,1);
       } else if (strcmp(method, "HEAD") == 0) {
          printf("Method: %s, Path: %s, Protocol: %s\n",method,path,protocol);
-         sendResponse(nfd,path,1);
+         sendResponse(nfd,path,0);
       } else {
          // handle unknown method
          sendErrorResponse(nfd,501,"Not Implemented");
