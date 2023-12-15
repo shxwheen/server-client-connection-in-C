@@ -7,7 +7,7 @@ You can start the client with `./client unix# PORT#`
 
 Get Request :
 
-`GET PATH HTTP.1.0` like `GET /index.html HTTP/1.0`
+`GET PATH HTTP/1.0` like `GET /index.html HTTP/1.0`
 
 HEAD Request: 
 
