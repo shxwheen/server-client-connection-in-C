@@ -11,10 +11,11 @@ Get Request :
 
 HEAD Request: 
 
-`HEAD PATH HTTP.1.0` like `HEAD /index.html HTTP/1.0`
+`HEAD PATH HTTP/1.0` like `HEAD /index.html HTTP/1.0`
 
-GET responses and Error messages will print to an output file which will be created within the `tests` folder which already has 2 examples (one for an error, one for client output)
+GET responses and Error messages will print to an output file which will be created within the `tests` folder which already has 2 examples (one for an error, one for a successful client request)
+The errors will have `*error*` at the beginning of their output file name and the successful client requests will just have `client: *pid#*` at the beginning of their output file name
 
-ALL responses will also be printed to the client terminal and have appropriate headers.
+ALL responses will also be printed to the client terminal and have appropriate headers. (GET headers will only print in client terminal NOT the output file, as advised in Office Hours)
 
 Client should terminate after a response is generated.
