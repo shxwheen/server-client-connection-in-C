@@ -1,4 +1,4 @@
-# Ghezavat_CSC357_Program_4
+# setting up server client connection
 
 Hello,
 
